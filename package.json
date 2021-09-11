@@ -1,0 +1,17 @@
+{
+  "name": "node-express-mariadb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": "https://github.com/holehuy/node-express-mariadb.git",
+  "author": "holehuy <holehuy2003@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mariadb": "^2.5.4"
+  }
+}
